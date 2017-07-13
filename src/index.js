@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === 'development') {
 
 let root
 function init() {
-  let App = require('./App').default
+  let App = require('./App').default;
   root = render(<App/>, document.querySelector('#app'), root)
 }
 

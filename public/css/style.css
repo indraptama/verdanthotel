@@ -1,0 +1,48 @@
+html,
+body {
+  font-family: "Cormorant Garamond", Poppins, serif;
+  line-height: 1.4;
+  background-color: #111;
+  color: #f3f3f3; }
+
+.sans {
+  font-family: Poppins, sans; }
+
+.mh-auto {
+  margin-left: auto;
+  margin-right: auto; }
+
+main {
+  margin-bottom: 64px; }
+
+.MainFooter2 {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999; }
+
+.MainHeader {
+  height: 56px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; }
+  .MainHeader .container {
+    min-height: 56px; }
+
+.RoomThumbnail-title {
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: left top 0;
+  -ms-transform-origin: left top 0;
+  transform-origin: left top 0;
+  position: absolute;
+  left: -100px;
+  bottom: -100px; }

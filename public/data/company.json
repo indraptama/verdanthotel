@@ -1,0 +1,21 @@
+{
+  "companyProfile" : {
+    "name" : "The Verdant S+F Boutique Hotel",
+    "slogan": "Unique hospitality experience",
+    "about": "Introducing Indonesia’s newest reference in luxury & unique experience hospitality, The Verdant S+F Boutique Hotel.it is a sophisticated blend of Indonesian tradition with a refined contemporary interpretation, right in the heart of Jakarta. \n All the facilities and services at The Verdant S+F Boutique Hotel have been designed to set the property in a class of its own. The panoramic restaurant and lounge on level 18 with sweeping views of the city, the open-air sandy beach pool with sun lounges, the elegant day spa, the high tech fitness centre, the luxurious room amenities, all ensure the most memorable stay for an extraordinary escape or at a successful, impeccable run event.",
+    "contact" : {
+      "address" : "Jalan Hotel 485 Jakarta Indonesia",
+      "phone" : {
+        "0" : "021 - 123456789",
+        "1" : "021 - 987654321"
+      },
+      "email":"hallo@verdanthotel.com",
+      "socialMedia" : {
+        "tweeter" : "http://twitter@verdanthotel",
+        "facebook" : "http://fb.com/verdanthotel",
+        "instagram" : "@verdanthotel",
+        "youtube": "@verdanthotel"
+      }
+    }
+  }
+}
