@@ -20,7 +20,7 @@ const imgThumb = (props) => {
       </div>
 
       <div class="RoomThumbnail-action ml6">
-        <a href={props.link}" class="f6 sans black pv2 ph5 link dib ba bw1 b--white-50 bg-white b">View Detail</a>
+        <a href={props.link} class="f6 sans black pv2 ph5 link dib ba bw1 b--white-50 bg-white b">View Detail</a>
       </div>
 
   </div>
