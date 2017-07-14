@@ -1,0 +1,7 @@
+.src_Components_ImgThumb_index_js-Style-title {
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+  position: absolute;
+  left: -100px;
+  bottom: -100px;
+}

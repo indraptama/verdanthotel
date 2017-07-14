@@ -1,8 +1,17 @@
 html {
   background-color: #111;
   font-family: 'Cormorant Garamond', 'serif';
+  color: #f3f3f3;
 }
 
 .sans {
   font-family: Poppins, sans;
+}
+
+.vh-min75 {
+  min-height: 75vh;
+}
+
+.vh-min100 {
+  min-height: 100vh;
 }

@@ -1,30 +1,31 @@
 import {h, Component} from 'preact'
+import './style.css'
 
 const ImgThumb = (props) => {
+
   return (
-    <div class="RoomThumbnail fl w-60">
-      <div class="dib relative white" href="">
-        <div class="RoomThumbnail-img mb4">
-          <img src={props.image}/>
+      <div class="relative white">
+        <div class="RoomThumbnail_img aspect-ratio aspect-ratio--4x3 mb3 mb5-l z-1">
+          <div class="aspect-ratio--object cover" style={"background: url("+props.image +") center"}></div>
+          <img src={props.image} class="dn" alt=""/>
         </div>
 
-        <div class="RoomThumbnail-title" style={Style.title}>
-          <h3 class="f-headline sans lh-solid tracked-tight ma0 fw6">
-            {props.name}</h3>
+        <div class="RoomThumbnail_title mb3 tc tl-l w-60-l">
+          <h3 class="f3 f-headline-l sans lh-solid tracked-tight ma0 fw6">{props.name}</h3>
         </div>
 
-        <div class="RoomThumbnail-desc ml6 mb4">
+        <div class="RoomThumbnail_desc dn db-l ml6-l mb4">
           <div class="measure">
             <p class="f4">{props.description}</p>
           </div>
         </div>
 
-        <div class="RoomThumbnail-action ml6">
+        <div class="RoomThumbnail_action tc tl-l ml6-l">
           <a class="f6 sans black pv2 ph5 link dib ba bw1 b--white-50 bg-white b" href={props.link}>View Detail</a>
         </div>
 
       </div>
-    </div>
+
 
 
   ) // return const
@@ -33,11 +34,11 @@ const ImgThumb = (props) => {
 export default ImgThumb
 
 const Style = {
-  'title': {
-    'transform': "rotate(-90deg)",
-    'transform-origin': 'left top 0',
-    'position': 'absolute',
-    'left': '-100px',
-    'bottom': '-100px',
+  title: {
+    transform: "rotate(-90deg)",
+    transformOrigin: 'left top 0',
+    position: "absolute",
+    left: "-100px",
+    bottom: "-100px",
   }
 }

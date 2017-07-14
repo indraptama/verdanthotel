@@ -20,6 +20,7 @@
     "unfetch": "^3.0.0"
   },
   "devDependencies": {
+    "babel-plugin-css-in-js": "^1.5.1",
     "nwb": "0.18.x"
   },
   "author": "",

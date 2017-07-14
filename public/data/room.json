@@ -3,7 +3,7 @@
     "0": {
       "name" : "Superior Room",
       "description" : "Our Superior Double rooms (for 2 people) are air conditioned and have a queen-size bed (from 160cm to 180cm), a flat screen TV, free WiFi, a safe and have private bathroom (bathtub) with complimentary toiletries and a hair dryer. These rooms all have an office area and are non-smoking.",
-      "linkDetail" : "superior-room.html",
+      "link" : "superior-room.html",
       "rate" : 1000000,
       "images" : {
         "0" : "img/room/superior/main.jpg",
@@ -29,7 +29,7 @@
     "1": {
       "name" : "Superior Twin Room",
       "description" : "Our Superior Twin rooms (for 2 people) are air conditioned and have two twin beds (from 80cm to 90cm), a flat screen TV, free WiFi, a safe and a private bathroom (bathtub) with complimentary toiletries and a hair dryer. These rooms all have an office area and are non-smoking.",
-      "linkDetail" : "superior-twin-room.html",
+      "link" : "superior-twin-room.html",
       "rate" : 1200000,
       "images" : {
         "0" : "img/room/superior2/main.jpg",
@@ -55,7 +55,7 @@
     "2": {
       "name" : "Family Triple Room",
       "description" : "Our Triple rooms (accommodating 3 to 4 people) are air conditioned and have 3 or 4 twin beds (from 80cm to 90cm), a flat screen TV, free WiFi, a safe and a private bathroom (bathtub) with complimentary toiletries and a hair dryer.",
-      "linkDetail" : "family-triple-room.html",
+      "link" : "family-triple-room.html",
       "rate" : 1800000,
       "images" : {
         "0" : "img/room/family/main.jpg",

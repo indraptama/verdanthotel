@@ -1,0 +1,20 @@
+
+
+@media (min-width: 960px) {
+  .RoomThumbnail_title {
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    position: absolute;
+    left: -100px;
+    bottom: -100px;
+    z-index: 99;
+  }
+
+  .fl-zigzag li {
+    float: left;
+  }
+  .fl-zigzag li:nth-child(2n+2) {
+    float: right;
+  }
+}
