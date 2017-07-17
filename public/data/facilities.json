@@ -1,0 +1,64 @@
+{
+  "facilities": {
+    "0": {
+      "name":"Old Factory Restaurant",
+      "description":"Born out of a passion to create a bold, unique and exciting restaurant theme, the Industrial Revolution Eatery & Grille fuses the finest handcrafted comfort cuisine with an atmosphere that pays tribute to the American spirit of Innovation and Greatness.",
+      "images": {
+        "0" :"img/facilities/resto/main.jpg"
+      },
+      "link":"facilities/resto",
+      "operationalHour": {
+        "open": 730,
+        "close": 1530
+      }
+    },
+    "1": {
+      "name":"Memoriable Rooftop",
+      "description":"Inspired by the restaurants with a view in the big European cities, the project of the Roof Garden Restaurant was strongly desired to give form to a place that could be in harmony with the city of Bergamo, taking advantage of the mutating colors and the play of lights that only a panorama like that of Città Alta is able to offer, without forgetting tradition and history.",
+      "images": {
+        "0" :"img/facilities/rooftop/main.jpg"
+      },
+      "link":"facilities/rooftop",
+      "operationalHour": {
+        "open": 730,
+        "close": 1530
+      }
+    },
+    "2": {
+      "name":"Meeting Room",
+      "description":"It has never been easier to plan events, meetings or execute seamless conferences that stand out with individual style and flair. The professional and friendly staff at our venue combine detail and imagination to ensure that every function or event is well organized and happily remembered..",
+      "images": {
+        "0" :"img/facilities/meeting/main.jpg"
+      },
+      "link":"facilities/meeting",
+      "operationalHour": {
+        "open": 730,
+        "close": 1530
+      }
+    },
+    "3": {
+      "name":"Reflexy Room",
+      "description":"Relax and revive from head to toe with the perfect mix of massages, body treatments, facials and centuries-old traditions. Our ancient Foot Massage therapy focuses on reflex points to improve circulation, while our Renewing Face Massage, designed by Japan’s anti-aging expert, promises to inspire your natural glow. If you’re in the mood to try something new, our Exotic Bamboo Massage is a fresh and natural approach that combines Swedish and deep tissue massage.",
+      "images": {
+        "0" :"img/facilities/spa/main.jpg"
+      },
+      "link":"facilities/spa",
+      "operationalHour": {
+        "open": 730,
+        "close": 1530
+      }
+    },
+    "4": {
+      "name":"Classic Pool",
+      "description":"swimming pool raises the bar for the ultimate ultimate poolside experience. Guests enjoy a unique opportunity to experience the beauty of our tropical surroundings. Our pool is perfect for a few morning laps before meetings, relaxing with friends beneath shady umbrellas, and surprising a loved one with a romantic dinner in one of our poolside gazebos. Overlooking Jakarta's vibrant cityscape, our pool is available for weddings, private events and corporate social gatherings.",
+      "images": {
+        "0" :"img/facilities/pool/main.jpg"
+      },
+      "link":"facilities/spa",
+      "operationalHour": {
+        "open": 730,
+        "close": 1530
+      }
+    }
+  }
+}

@@ -2,8 +2,11 @@ import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 
 import Header from './Components/Header';
+
+import Home from './Route/Home';
 import Room from './Route/Room';
 import Explore from './Route/Explore';
+import Facilities from './Route/Facilities';
 
 export default class App extends Component {
 	/** Gets fired when the route changes.
@@ -19,9 +22,10 @@ export default class App extends Component {
 			<div id="app">
 				<Header />
 				<Router onChange={this.handleRoute}>
-					<Room path="/" />
-					<Explore path="/explore/" user="me" />
-					<Explore path="/explore/:user" />
+          <Home path="/" />
+          <Room path="/rooms" />
+					<Explore path="/explore/" />
+          <Facilities path="/facilities/" />
 				</Router>
 			</div>
 		);

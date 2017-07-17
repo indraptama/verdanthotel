@@ -1,11 +1,18 @@
 html {
   background-color: #111;
-  font-family: 'Cormorant Garamond', 'serif';
   color: #f3f3f3;
+  font-family: 'Cardo', 'serif';
+  line-height: 1.618;
+  min-height: 100vh;
+  overflow-y: scroll;
 }
 
 .sans {
-  font-family: Poppins, sans;
+  font-family: "Montserrat";
+}
+
+.serif {
+  font-family: "playfair display";
 }
 
 .vh-min75 {

@@ -12,10 +12,13 @@
     "test:watch": "nwb test-preact --server"
   },
   "dependencies": {
+    "animejs": "^2.0.2",
+    "gsap": "^1.20.2",
     "minireset.css": "0.0.3",
     "preact": "^8.2.1",
     "preact-compat": "^3.16.0",
     "preact-router": "^2.5.4",
+    "rellax": "^1.0.0",
     "tachyons": "^4.7.4",
     "unfetch": "^3.0.0"
   },
