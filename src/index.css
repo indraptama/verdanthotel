@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background-color: #111;
   color: #f3f3f3;
@@ -21,4 +25,9 @@ html {
 
 .vh-min100 {
   min-height: 100vh;
+}
+
+.bg-pattern {
+  background-repeat: repeat;
+  background-attachment: fixed;
 }

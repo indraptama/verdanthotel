@@ -16,7 +16,7 @@ const ImgThumb = (props) => {
 
         <div class="RoomThumbnail_desc dn db-l ml6-l mb4">
           <div class="measure">
-            <p class="f4">{props.description}</p>
+            <p class="">{props.description}</p>
           </div>
         </div>
 
