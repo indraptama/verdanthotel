@@ -31,3 +31,37 @@ html {
   background-repeat: repeat;
   background-attachment: fixed;
 }
+
+@media (min-width: 960px) {
+  .RoomThumbnail_title {
+    z-index: 99;
+  }
+
+  /*.RoomThumbnail_title {
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    position: absolute;
+    left: -100px;
+    bottom: -100px;
+    z-index: 99;
+  }*/
+
+  .fpt8-l {
+    transform: translateY(-8rem);
+    z-index: 2;
+    position: relative;
+  }
+  .fpl4-fpt8-l {
+    transform: translate(-4rem, -8rem);
+    z-index: 2;
+    position: relative;
+  }
+
+  .fl-zigzag li {
+    float: left;
+  }
+  .fl-zigzag li:nth-child(2n+2) {
+    float: right;
+  }
+}
