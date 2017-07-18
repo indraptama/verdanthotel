@@ -32,6 +32,10 @@ html {
   background-attachment: fixed;
 }
 
+.f8 {
+  font-size: 0.65rem;
+}
+
 @media (min-width: 960px) {
   .RoomThumbnail_title {
     z-index: 99;

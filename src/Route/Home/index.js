@@ -73,7 +73,6 @@ export default class Home extends Component {
             <a class="f6 sans black pv2 ph5 link dib ba bw1 b--white-50 bg-white sr-appear" href="#">View Detail</a>
           </div>
         </div>
-
       </div>
     );
   }

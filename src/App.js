@@ -2,6 +2,7 @@ import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 import Home from './Route/Home';
 import Room from './Route/Room';
@@ -27,6 +28,7 @@ export default class App extends Component {
 					<Explore path="/explore/" />
           <Facilities path="/facilities/" />
 				</Router>
+				<Footer />
 			</div>
 		);
 	}
