@@ -27,25 +27,38 @@ export default class Footer extends Component {
 
   render() {
     return (
-      <footer className="f6">
-        <div className="mw8 center ph4 pv4 cf">
-          <div className="fl w-100 w-40-l">
-            <h3 className="serif f4 mb3">{this.state.dataCompany.name}</h3>
-            <div className="mb3">
-              <h5 className="f8 sans ttu tracked-mega mb2">Address</h5>
-              <p>{this.state.dataContact.address}</p>
+      <footer className="f6 bg-black">
+        <div className="mw9 center ph4 pv4 cf">
+          <h3 className="serif f4 mb4 dn">{this.state.dataCompany.name + " Boutique Hotel"}</h3>
+            <div className="fl w-100 w-25-l">
+              <div className="mb3">
+                <h5 className="f8 sans ttu tracked-mega mb2">Address</h5>
+                <p>{(this.state.dataContact.address)}</p>
+              </div>
             </div>
-            <div className="mb3">
-              <h5 className="f8 sans ttu tracked-mega mb2">Phone</h5>
-              <ul className="list pl0">{Object.keys(this.state.dataPhone).map(key => <li>{this.state.dataPhone[key]}</li>)}</ul>
+
+            <div className="fl w-100 w-25-l">
+              <div className="mb3">
+                <h5 className="f8 sans ttu tracked-mega mb2">Phone</h5>
+                <ul className="list pl0">{Object.keys(this.state.dataPhone).map(key => <li>{this.state.dataPhone[key]}</li>)}</ul>
+              </div>
             </div>
-            <div className="mb3">
-              <h5 className="f8 sans ttu tracked-mega mb2">email</h5>
-              <p>{this.state.dataContact.email}</p>
+
+            <div className="fl w-100 w-25-l">
+              <div className="mb3">
+                <h5 className="f8 sans ttu tracked-mega mb2">email</h5>
+                <p>{this.state.dataContact.email}</p>
+              </div>
+            </div>
+
+            <div className="fl w-100 w-25-l">
+              <div className="mb3">
+                <h5 className="f8 sans ttu tracked-mega mb2">Social</h5>
+                <p>{this.state.dataContact.email}</p>
+              </div>
             </div>
 
           </div>
-        </div>
       </footer>
     );
   }

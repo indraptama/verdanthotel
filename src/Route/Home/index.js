@@ -26,7 +26,7 @@ export default class Home extends Component {
 
     setTimeout(function(){
       sr.reveal('.sr-appear', config)
-    }, 200);
+    }, 250);
 
     const config = {
       origin: 'bottom',

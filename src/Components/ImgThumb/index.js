@@ -15,7 +15,7 @@ const ImgThumb = (props) => {
           </div>
 
           <div class="RoomThumbnail_desc dn db-l ml6-l mb4">
-            <div class="measure">
+            <div class="measure pa3" style={Style.RoomThumbnail_desc}>
               <p class="">{props.description}</p>
             </div>
           </div>
@@ -41,5 +41,8 @@ const Style = {
     position: "absolute",
     left: "-100px",
     bottom: "-100px",
+  },
+  RoomThumbnail_desc: {
+    backgroundColor: '#111',
   }
 }
