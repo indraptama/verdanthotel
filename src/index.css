@@ -9,6 +9,7 @@ html {
   line-height: 1.618;
   min-height: 100vh;
   overflow-y: scroll;
+  font-size: 87.5%;
 }
 
 .sans {
@@ -34,6 +35,14 @@ html {
 
 .f8 {
   font-size: 0.65rem;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.ba-none {
+  border: none;
 }
 
 @media (min-width: 960px) {

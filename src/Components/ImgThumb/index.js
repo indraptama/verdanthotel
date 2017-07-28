@@ -10,7 +10,7 @@ const ImgThumb = (props) => {
           <img src={props.image} class="dn" alt=""/>
         </div>
         <div className="fpl4-fpt8-l">
-          <div class="RoomThumbnail_title mb3 tc tl-l w-80-l">
+          <div class="RoomThumbnail_title mb3 tc tl-l w-90-l">
             <h3 class="f3 f-headline-l serif lh-solid ma0">{props.name}</h3>
           </div>
 

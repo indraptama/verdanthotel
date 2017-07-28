@@ -8,6 +8,7 @@ import Home from './Route/Home';
 import Room from './Route/Room';
 import Explore from './Route/Explore';
 import Facilities from './Route/Facilities';
+import Contact from './Route/Contact';
 
 export default class App extends Component {
 	/** Gets fired when the route changes.
@@ -27,6 +28,7 @@ export default class App extends Component {
           <Room path="/rooms" />
 					<Explore path="/explore/" />
           <Facilities path="/facilities/" />
+					<Contact path="/contact/" />
 				</Router>
 				<Footer />
 			</div>

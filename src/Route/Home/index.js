@@ -57,12 +57,34 @@ export default class Home extends Component {
           </div>
         </section>
 
+        <section className="flex-l">
+          <div className="w-100 w-50-l bg-pattern" style={'background-image: url("img/assets/bank-note.svg")'}>
+            <div className="aspect-ratio aspect-ratio--1x1">
+              <div className="aspect-ratio--object">
+
+              </div>
+            </div>
+          </div>
+          <div className="w-100 w-50-l relative">
+            <div className="measure-wide center pv4 ph3">
+              <h3 className="db f7 sans ttu tracked-mega mb3 tc">rooms</h3>
+              <p>We offer an unparalleled collection of rooms and suites to inspire The Verdant S+F Boutique Hotel’s discerning guests. Business and weekend travelers may choose a relaxing and contemporary space with The Verdant S+F Boutique Hotel Executive Lounge access and city views, while families and executives can opt for a lavish suite with spacious residential feeling. Chic urban amenities include private terraces, stylish marble bathrooms, and luxurious personal amenities.</p>
+            </div>
+            <div className="measure-wide center ph3">
+              <h3 className="db f7 sans ttu tracked-mega mb3">rooms Type</h3>
+            </div>
+          </div>
+        </section>
+
+
+
         <div className="cf bg-pattern mb6" style={'background-image: url("img/assets/bank-note.svg")'}>
           <div className="" style={'transform:translateY(4rem)'}>
             <div className="mw8 pa5 bg-white center tc cover vh-75 sr-appear" style={'background: url("/img/explore/factory-s.jpg") center'}>
           </div>
         </div>
         </div>
+
         <div className="cf mb5 mb6-l">
           <div className="mw7 ph3  center tc tl-l">
             <h2 className="f2 f1-l mb4 lh-solid sr-appear">
