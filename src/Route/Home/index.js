@@ -1,7 +1,7 @@
 import {h, Component}from 'preact';
 import fetch from 'unfetch';
 import sr from '../../Components/ScrollReveal.js';
-
+import Waypoint from 'preact-waypoint';
 
 import Hero from '../../Components/Hero';
 import ImgThumb from '../../Components/ImgThumb';
